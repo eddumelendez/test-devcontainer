@@ -1,6 +1,6 @@
 {
     "name": "Testcontainers Cloud",
-    "id": "testcontainers-cloud",
+    "id": "tcc",
     "version": "0.0.1",
     "description": "Testcontainers Cloud feature",
     "options": {

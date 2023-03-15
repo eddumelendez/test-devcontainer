@@ -10,7 +10,7 @@
             "description": "Specific version of Testcontainers Cloud Client to use"
         }
     },
-    "entrypoint": "/usr/local/share/tcc &",
+    "entrypoint": "/usr/local/share/testcontainerscloud-init.sh",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]

@@ -1,0 +1,16 @@
+{
+    "name": "Testcontainers Cloud",
+    "id": "testcontainers-cloud",
+    "version": "0.0.1",
+    "description": "Testcontainers Cloud feature",
+    "options": {
+        "version": {
+            "type": "string",
+            "default": "latest",
+            "description": "Specific version of Testcontainers Cloud Client to use"
+        }
+    },
+    "installsAfter": [
+        "ghcr.io/devcontainers/features/common-utils"
+    ]
+}

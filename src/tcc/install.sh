@@ -10,3 +10,4 @@ LATEST_BINARY_URL="https://app.testcontainers.cloud/download/testcontainers-clou
 
 curl -fsSL -o /usr/local/share/tcc "${LATEST_BINARY_URL}"
 chmod +x /usr/local/share/tcc
+chown root:root /usr/local/share/tcc

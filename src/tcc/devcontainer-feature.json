@@ -10,7 +10,7 @@
             "description": "Specific version of Testcontainers Cloud Client to use"
         }
     },
-    "postStartCommand": "/usr/local/share/tcc &",
+    "postStartCommand": "curl -fsSL -o /usr/local/share/tcc \"https://app.testcontainers.cloud/download/testcontainers-cloud-agent_latest_linux_x86-64\" && chmod +x /usr/local/share/tcc && chown root:root /usr/local/share/tcc && /usr/local/share/tcc &",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]

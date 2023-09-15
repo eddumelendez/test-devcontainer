@@ -10,7 +10,7 @@
             "description": "Specific version of Testcontainers Cloud Client to use"
         }
     },
-    "postStartCommand": "/usr/local/share/tcc",
+    "postStartCommand": "nohup bash -c '/usr/local/share/tcc &'",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]

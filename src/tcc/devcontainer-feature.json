@@ -1,7 +1,7 @@
 {
     "name": "Testcontainers Cloud",
     "id": "tcc",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Testcontainers Cloud feature",
     "options": {
         "version": {
@@ -10,7 +10,7 @@
             "description": "Specific version of Testcontainers Cloud Client to use"
         }
     },
-    "postStartCommand": "nohup bash -c '/usr/local/share/tcc &'",
+    "postStartCommand": "nohup /usr/local/share/tcc-agent > /usr/local/share/tcc-agent.log 2>&1 &",
     "installsAfter": [
         "ghcr.io/devcontainers/features/common-utils"
     ]
